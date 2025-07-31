@@ -11,6 +11,14 @@ This tool is intended for educational use and for authorized penetration testing
 
 ---
 
+## Important Notes
+
+**This project was initially inspired by the 'Enumeration and Brute-force' room on TryHackMe.** The original concept was then significantly extended and refactored to include advanced features such as multithreading, flexible command-line arguments, and improved error handling to turn it into a more robust and practical tool.
+
+**Important Note on Target Specificity:** This tool is tailored to exploit a specific type of verbose error vulnerability and is not a universal solution. Real-world web applications employ unique security mechanisms (e.g., CSRF tokens, custom form data parameters, and WAFs). Therefore, significant manual analysis and code modification are required to adapt this script for a new target.
+
+---
+
 ## Features
 
 * **Multithreading**: Utilizes `ThreadPoolExecutor` to perform checks concurrently, significantly speeding up the enumeration process.
